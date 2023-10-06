@@ -1,0 +1,48 @@
+#page {
+    border:1px solid purple;
+    width:755px;
+    margin:0 auto;
+    padding:5px;
+    text-align:left;
+}
+div {
+    text-align:center;
+}
+
+#header {
+    border:2px solid red;
+    width:750px;
+    height:30px;
+}
+
+#menu {
+    border:2px solid green;
+    width:200px;
+    float:left;
+    margin:10px 0 10px 5px;
+    height:350px;
+}
+
+#content {
+    border:2px solid blue;
+    width:500px;
+    margin:10px 0 10px 235px;
+    min-height:500px;
+    height:500px
+}
+
+#footer {
+    border:2px solid red;
+    width:750px;
+    height:30px;
+    
+}
+
+.slmapbg {
+    height: 1500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: aqua;
+}

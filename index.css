@@ -1,0 +1,387 @@
+.navbardiv {
+    height: 50px;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.brandname {
+    height: 350px;
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 0;
+    border: 0;
+    background-image: url('hometitle4.jpg');  
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    background-color: rgb(129, 201, 169);
+    text-align: center;
+}
+
+div,
+section {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.welcome{
+    height: 180px;
+    width: 100%;
+}
+#banner {
+    height: 1200px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    margin-top: 130px;
+
+}
+
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    z-index: -100;
+}
+
+/*.slmapbg {
+    height: 1200px;
+    width: 100%;
+    background-color: aqua;
+
+    border: 1px;
+    margin: 0 auto;
+}*/
+
+
+.slmap {
+    height: 1100px;
+    width: 800px;
+    /*background-color: blue;*/
+    background-image: url('slmap24.png');
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    float: left;
+    border: 1px;
+    padding: 50px;
+    margin: 20px 10px 10px 5px;
+
+}
+
+.helptext {
+    height: 400px;
+    width: 350px;
+    background-color: rgba(38, 41, 34, 0.1);
+    float: left;
+    border: 1px;
+    padding: 40px;
+    margin: 20px 10px 10px 5px;
+    font-family: 'Times New Roman';
+    font-size: medium;
+
+}
+
+.hiddenimg {
+    display: none;
+}
+
+.hiddentxt {
+    font-weight: bold;
+    color: rgb(27, 7, 129);
+    z-index: 99;
+}
+
+.hiddentxt a {
+    color: rgb(46, 15, 185);
+    text-decoration: none;
+    z-index: 99;
+}
+
+.hiddenclick {
+    font-weight: bold;
+    color: #F00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hiddenclick a {
+    color: #F00;
+    text-decoration: none;
+}
+
+.hiddenclick a:visited {
+    color: #F00;
+    text-decoration: none;
+}
+
+.hiddentxt:hover~.hiddenimg {
+    display: block;
+    position: absolute;
+   
+    z-index: 2;
+   
+}
+
+.hiddenclickimg {
+    display: none;
+
+}
+
+
+
+
+
+.categories {
+    clear: both;
+    padding: 5px;
+    height: 400px;
+    overflow: hidden;
+    background-color: rgb(9, 212, 185, 0.1);
+    color: #080707;
+
+}
+
+.hc{
+    height: 250px;
+    width: 300px;
+    background-color: greenyellow;
+    background-image:url(categories/hicam3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;   
+    float: left;
+    border: 1px;
+    padding: 40px;
+    margin: 0px 50px 10px 0px;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+
+.hc:hover{
+	opacity: .5;
+}
+
+.sd{
+    height: 250px;
+    width: 300px;
+    background-color: greenyellow;
+    background-image:url(categories/surfing3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    float: left;
+    border: 1px;
+    padding: 40px;
+    margin: 0px 50px 10px 50px;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.sd:hover{
+	opacity: .5;
+}
+.sw{
+    height: 250px;
+    width: 300px;
+    background-color: greenyellow;
+    background-image:url(categories/wildlife3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    border: 1px;
+    padding: 40px;
+    margin: 0px 50px 10px 50px;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.sw:hover{
+	opacity: .5;
+}
+
+.rt{
+    height: 250px;
+    width: 300px;
+    background-color: greenyellow;
+    background-image:url(categories/roadtrips12.jpg) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    border: 1px;
+    padding: 40px;
+    margin: 0px 0px 10px 50px;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.rt:hover{
+	opacity: .5;
+}
+
+/*.news {
+    clear: both;
+    padding: 5px;
+    height: 400px;
+    overflow: hidden;
+    background-color: rgb(212, 9, 171);
+    color: #080707;
+
+}*/
+
+.footer {
+    clear: both;
+    margin-top: 40px;
+    padding: 5px;
+    height: 350px;
+    overflow: hidden;
+    background-color: rgb(15, 135, 168);
+    color: #080707;
+}
+
+.f1div {
+    height: 300px;
+    width: 300px;
+    /*background-color: greenyellow;*/
+    float: left;
+    border: 1px;
+    /*padding: 40px;*/
+    margin: 0px 50px 10px 10px;
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+
+.f2div {
+    height: 300px;
+    width: 250px;
+    /*background-color: greenyellow;*/
+    float: left;
+    border: 1px;
+    /*padding: 40px;*/
+    margin: 0px 55px 10px 35px;
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+
+.f3div {
+    height: 190px;
+    width: 300px;
+    /*background-color: greenyellow;*/
+    float: left;
+    border: 1px;
+    /*padding: 40px;*/
+    margin: 0px 0px 10px 80px;
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+.f4div{
+    width: 300px;
+    height: 70px;
+    /*top:60%;
+    left:70%;*/
+    float: right;
+    border: 10px;  
+    /*margin: 0px 0px 0px 400px;*/
+    
+    /*background:rgb(180, 85, 22);*/
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+.f5div {
+    height: 300px;
+    width: 270px;
+    /*background-color: greenyellow;*/
+    float: left;
+    border: 1px;
+    /*padding: 40px;*/
+    margin: 0px 80px 10px 70px;
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+
+.footer2 {
+    height: 100px;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(15, 135, 168);
+}
+
+
+
+.sec2 {
+    height: 400px;
+    width: 350px;
+    background-color: rgba(38, 41, 34, 0.1);
+    float: left;
+    border: 1px;
+    padding: 40px;
+    margin: 20px 10px 10px 5px;
+    font-family: 'Times New Roman';
+    font-size: medium;
+
+}
+
+.sec2 .section-title {
+    position: relative;
+    font-size: 2.4rem;
+}
+
+.sec2 .section-title::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background: #f1c40f;
+    transition: 500ms ease-in-out;
+}
+
+.section-title.revealed::before {
+    width: 0;
+}
+
+.sec2 .section-desc {
+    color: #a8a8a8;
+    text-align: center;
+    transform: translateY(32px);
+    opacity: 0;
+    transition: .8s ease-out;
+}
+
+.section-desc.faded-in {
+    transform: translateY(0);
+    opacity: 1;
+}

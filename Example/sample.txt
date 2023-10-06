@@ -1,0 +1,18 @@
+ <div class="slmapbg">
+        <div class="helptext">
+            <p style="margin: 0" ;>Explore your desire destination...</p>
+            <p style="margin: 0;">Select the disrict from this map</p>
+        </div>
+        <div class="slmap">
+            <img src="slmap.png" alt="slmap" height="800px" width="600px">
+
+        </div>
+    </div>
+
+
+
+ margin: 0;
+    padding: 0;
+    border: 0;
+
+ <div class="slmap"> <img src="slmap.png" alt="slmap" height="800px" width="600px">*/

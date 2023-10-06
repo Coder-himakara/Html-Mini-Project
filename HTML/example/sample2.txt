@@ -1,0 +1,30 @@
+.slmapbg {
+    height: 1500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: aqua;
+}
+
+
+.slmap {
+    background-color: blue;
+    background-position: 50% 0%;
+    height: 900px;
+    max-width: 600px;
+    float: right;
+   
+
+}
+
+.helptext {
+    height: 900px;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    top: 20px;
+    background-color: greenyellow;
+}

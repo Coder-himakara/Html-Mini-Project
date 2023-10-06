@@ -1,0 +1,26 @@
+  <div  style="position: absolute; left: 870px; top: 975px;">
+                <p><a class="snapchat" style="margin: 5px 5px 0 -2px;" target="_blank" href="#"><b>13</b><img src="District imgs\kandy-temple.jpeg" alt="temple" /></a></p>
+            </div>
+            
+
+
+
+a.snapchat {
+    position: relative;
+    background: wheat;
+}
+
+a.snapchat img {
+    position: absolute;
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    left: 0;
+    top: -20px;
+    transition: opacity .5s, top .5s;
+}
+
+a.snapchat:hover img {
+    opacity: 1;
+    top: 20px;
+}
